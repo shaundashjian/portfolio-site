@@ -3,6 +3,7 @@ body {
     font-family: 'Lato', sans-serif;
     font-family: 'Architects Daughter', cursive;
     font-size: 170%;
+    padding-top: 50px;
 }
 
 .navbar-nav {
@@ -14,5 +15,10 @@ body {
 .navbar-nav>li {
     float: none;
     display: table-cell;
+    text-align: center;
+}
+
+.starter-template {
+    padding: 40px 15px;
     text-align: center;
 }
