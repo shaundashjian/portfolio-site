@@ -1,8 +1,7 @@
 body {
     /*background-color: lavender;*/
     background-color: #CCF6FA;
-    font-family: 'Lato', sans-serif;
-    font-family: 'Architects Daughter', cursive;
+    font-family: 'Comfortaa', cursive;
     font-size: 170%;
     padding-top: 50px;
 }
@@ -19,7 +18,11 @@ body {
     text-align: center;
 }
 
-.starter-template {
-    padding: 40px 15px;
+.centered {
     text-align: center;
+    padding-bottom: 15px;
+}
+
+.media {
+    margin-bottom: 15px;
 }

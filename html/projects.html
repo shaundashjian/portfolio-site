@@ -9,7 +9,8 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
         <link rel="stylesheet" href="css/master.css">
-        <link href="https://fonts.googleapis.com/css?family=Architects+Daughter" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet">
+
         <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico" />
 
     </head>
@@ -29,7 +30,10 @@
         </nav>
         <div class="container">
 
-            <h1>Projects</h1>
+            <div class="row">
+                <h1 class="col-md-12 well centered">Projects</h1>
+
+            </div>
 
             <div class="row">
                 <div class="media">
@@ -37,15 +41,19 @@
                         <a href="http://www.shaundashjian.com:8080/HomeImprovementStore/" target="_blank"> <img class="media-object panel panel-default" src="images/home-improvement-store.png" alt="Home Improvement Store" } width="300">
                         </a>
                     </div>
-                    <div class="media-body ">
-                        <a href="http://www.shaundashjian.com:8080/HomeImprovementStore/" target="_blank"><h4 class="media-heading">Home Improvement Store</h4></a>
-                        <ul>
-                            <li><strong>Value:</strong> A Spring MVC web application for inventory management at a home improvement store.</li>
-                            <li><strong>Purpose:</strong> It demonstrates full-stack web application development using Spring MVC and MySQL</li>
-                            <li><strong>Technologies Used:</strong> Java Spring MVC, MySQL, JSP with Bootstrap, and the DAO pattern.</li>
-                            <li>Check out the <a href="http://www.shaundashjian.com:8080/HomeImprovementStore/" target="_blank">application online </a> and the
-                                <a href="https://github.com/shaundashjian/home-improvement-store" target="_blank">GitHub repository</a>.</li>
-                        </ul>
+                    <div class="media-body panel panel-primary">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">Home Improvement Store</h4>
+                        </div>
+                        <div class="panel-body">
+                            <ul>
+                                <li><strong>Value:</strong> A Spring MVC web application for inventory management at a home improvement store.</li>
+                                <li><strong>Purpose:</strong> It demonstrates full-stack web application development using Spring MVC and MySQL</li>
+                                <li><strong>Technologies Used:</strong> Java Spring MVC, MySQL, JSP with Bootstrap, and the DAO pattern.</li>
+                                <li>Check out the <a href="http://www.shaundashjian.com:8080/HomeImprovementStore/" target="_blank">application online </a> and the
+                                    <a href="https://github.com/shaundashjian/home-improvement-store" target="_blank">GitHub repository</a>.</li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -55,17 +63,21 @@
                         <a href="http://www.shaundashjian.com:8080/FunnyGermanWords/" target="_blank"> <img class="media-object panel panel-default" src="images/funny-german-words.png" alt="Funny German Words" } width="300">
                         </a>
                     </div>
-                    <div class="media-body ">
-                        <a href="http://www.shaundashjian.com:8080/FunnyGermanWords/" target="_blank"><h4 class="media-heading">Funny German Words</h4></a>
-                        <ul>
-                            <li><strong>Value:</strong> A web application that lists some funny German words. Users can add a new word, display it, update it, and delete it.</li>
-                            <li><strong>Purpose:</strong> It demonstrates basic C.R.U.D. operations</li>
-                            <li><strong>Technologies Used:</strong> Java Spring, Spring Web MVC, JSP, Bootstrap, and Junit, with dependencies managed using Gradle.</li>
-                            <li>Check out the <a href="http://www.shaundashjian.com:8080/FunnyGermanWords/" target="_blank">application online </a> and the
-                                <a href="https://github.com/shaundashjian/funny-german-words" target="_blank">GitHub repository</a>.</li>
-                        </ul>
+                    <div class="media-body panel panel-primary">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">Funny German Words</h4>
+                        </div>
+                        <div class="panel-body">
+                            <ul>
+                                <li><strong>Value:</strong> A web application that lists some funny German words. Users can add a new word, display it, update it, and delete it.</li>
+                                <li><strong>Purpose:</strong> It demonstrates basic C.R.U.D. operations</li>
+                                <li><strong>Technologies Used:</strong> Java Spring, Spring Web MVC, JSP, Bootstrap, and Junit, with dependencies managed using Gradle.</li>
+                                <li>Check out the <a href="http://www.shaundashjian.com:8080/FunnyGermanWords/" target="_blank">application online </a> and the
+                                    <a href="https://github.com/shaundashjian/funny-german-words" target="_blank">GitHub repository</a>.</li>
+                            </ul>
 
 
+                        </div>
                     </div>
                 </div>
             </div>
@@ -75,15 +87,20 @@
                         <a href="http://www.shaundashjian.com:8080/USPresidents/" target="_blank"> <img class="media-object panel panel-default" src="images/us-presidents.png" alt="US Presidents" } width="300">
                         </a>
                     </div>
-                    <div class="media-body ">
-                        <a href="http://www.shaundashjian.com:8080/USPresidents/" target="_blank"><h4 class="media-heading">US Presidents</h4></a>
-                        <ul>
-                            <li><strong>Value:</strong> A Java web application that displays important and interesting information about all US presidents.</li>
-                            <li><strong>Purpose:</strong> It demonstrates using the MVC architecture</li>
-                            <li><strong>Technologies Used:</strong> Java MVC architecture using Servlets, JSP, and the DAO pattern. JUnit was used in TDD.</li>
-                            <li>Check out the <a href="http://www.shaundashjian.com:8080/USPresidents/" target="_blank">application online </a> and the
-                                <a href="https://github.com/shaundashjian/USPresidents" target="_blank">GitHub repository</a>.</li>
-                        </ul>
+                    <div class="media-body panel panel-primary">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">US Presidents</h4>
+                        </div>
+                        <div class="panel-body">
+                            <ul>
+                                <li><strong>Value:</strong> A Java web application that displays important and interesting information about all US presidents.</li>
+                                <li><strong>Purpose:</strong> It demonstrates using the MVC architecture</li>
+                                <li><strong>Technologies Used:</strong> Java MVC architecture using Servlets, JSP, and the DAO pattern. JUnit was used in TDD.</li>
+                                <li>Check out the <a href="http://www.shaundashjian.com:8080/USPresidents/" target="_blank">application online </a> and the
+                                    <a href="https://github.com/shaundashjian/USPresidents" target="_blank">GitHub repository</a>.</li>
+                            </ul>
+                        </div>
+
                     </div>
                 </div>
             </div>
