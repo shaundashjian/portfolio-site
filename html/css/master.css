@@ -4,6 +4,7 @@ body {
     font-family: 'Comfortaa', cursive;
     font-size: 170%;
     padding-top: 50px;
+    text-align: justify;
 }
 
 .navbar-nav {
