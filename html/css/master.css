@@ -26,4 +26,13 @@ body {
 
 .media {
     margin-bottom: 15px;
+    /*padding-right: 10px;*/
+}
+
+img {
+    width: 100%;
+}
+
+.media-body {
+    margin-left: 5px;
 }
