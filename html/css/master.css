@@ -1,38 +1,56 @@
 body {
-    /*background-color: lavender;*/
-    background-color: #CCF6FA;
-    font-family: 'Comfortaa', cursive;
-    font-size: 170%;
-    padding-top: 50px;
-    text-align: justify;
+  /*background-color: lavender;*/
+  background-color: #CCF6FA;
+  font-family: 'Comfortaa', cursive;
+  font-size: 170%;
+  padding-top: 50px;
+  text-align: justify;
 }
 
 .navbar-nav {
-    display: table;
-    width: 100%;
-    margin: 0;
+  display: table;
+  width: 100%;
+  margin: 0;
 }
 
 .navbar-nav>li {
-    float: none;
-    display: table-cell;
-    text-align: center;
+  float: none;
+  display: table-cell;
+  text-align: center;
 }
 
 .centered {
-    text-align: center;
-    padding-bottom: 15px;
+  text-align: center;
+  padding-bottom: 15px;
 }
 
 .media {
-    margin-bottom: 15px;
-    /*padding-right: 10px;*/
+  margin-bottom: 15px;
+  /*padding-right: 10px;*/
 }
 
 img {
-    width: 100%;
+  width: 100%;
 }
 
 .media-body {
-    margin-left: 5px;
+  margin-left: 5px;
+}
+
+.panel h4 {
+  color: white;
+  text-decoration: none !important;
+}
+
+.panel-heading:hover {
+  background-image: linear-gradient(to bottom, #e91e63 0, #2e6da4 100%);
+  background-color: #009688;
+}
+
+.panel a:hover {
+  text-decoration: none !important;
+}
+
+a:hover, a:visited, a:link, a:active {
+  text-decoration: none !important;
 }
